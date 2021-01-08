@@ -19,7 +19,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           
-          <li class="active"><a href="reg.html">Registration</a></li>
+          <li class="active"><a href="login.html">login</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -66,57 +66,63 @@
 
   <main id="main">
 
-   
-
-    
-
-    
-    
-    
-
-   
-
-    <!-- ======= Contact Section ======= -->
+   <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
-          <h2>Login</h2>
-          <p>Login Info</p>
+      
+          <p>Hi,"x" how are you feeling today ? </p>
+
         </div>
 
-        <div class="row mt-5">
 
-          
-          </div>
+        
+     <div class="section-title" data-aos="zoom-out">
+      
+          <h2>Input symptoms </h>
+        
+        </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form  class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-12 form-group">
-                  <input type="text" name="email" class="form-control" id="email" placeholder="Email address"  />
-                  <div class="validate"></div>
-                </div>
-                
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="password" id="password" placeholder="password"/>
-                </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0 row" data-aos="fade-left">
+
+            <form  class="php-email-form col-md-6">
               
-              <div class="text-center"><button type="submit" onClick="window.location.href='input.html'">Login</button></div>
+                <div class="form-group">
+                  <h3>Symptom 1</h3>
+                  <input type="text" name="symptom" class="form-control" id="symptom" placeholder="Enter symptom here"  />
+                </div>
+               <div class="form-group">
+                  <h3>Symptom 2</h3>
+                  <input type="text" name="symptom" class="form-control" id="symptom" placeholder="Enter symptom here"  />
+                </div>
+              <div class="form-group">
+                  <h3>Symptom 3</h3>
+                  <input type="text" name="symptom" class="form-control" id="symptom" placeholder="Enter symptom here"  />
+                </div>
+                <a href="#"class="btn-learn-more"> <i class="fas fa-plus"> Add More..</i></a>
+               
+              
+              
+              <div class="text-center"><button type="submit" onClick="window.location.href='result.html'">Check Results</button></div>
             </form>
-            <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="Allow Camera">
-    <label class="form-check-label">Allow Camera</label>
-  </div>
+             
+           <div class="col-md-6 d-flex justify-content-between"><h3>Or,</h3><a href="#"><i class="fas fa-microphone-alt fa-10x"></i></a>
+            <h2>Click to speak</h2>
+           </div>
           </div>
+
+
+          <!-- Mic part -->
+          
 
         </div>
         
       </div>
       
-    </section><!-- End Contact Section -->
+    </section>
 
   </main><!-- End #main -->
 
@@ -135,7 +141,6 @@
   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
